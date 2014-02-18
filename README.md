@@ -20,7 +20,8 @@ A repository is a group of images located in the docker registry. There are two 
 
 # Example + basic workflow
 ```
-docker run base /bin/echo hello world
+sudo docker run base /bin/echo hello world   # Generate and run container based on 'base image' and execute 'echo hello world' command
+sudo docker ps -a                            # List all containers
 ```
 
 The following things happened:
